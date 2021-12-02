@@ -8,9 +8,8 @@
   },
   "scripts": {
     "start": "ts-node .",
-    "build": "tsc",
-    "compile": "npm run build && pkg --out-path ./bin ./dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm i && tsc",
+    "compile": "npm run build && pkg --out-path ./bin ./dist/index.js"
   },
   "keywords": [],
   "author": "",
