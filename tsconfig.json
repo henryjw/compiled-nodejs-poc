@@ -1,0 +1,18 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "lib": [
+      "es2019",
+      "DOM"
+    ],
+    "target": "es5",
+    "incremental": true,
+    "allowJs": false,
+    "sourceMap": false,
+    "strict": true,
+    "strictNullChecks": false
+  }
+}
